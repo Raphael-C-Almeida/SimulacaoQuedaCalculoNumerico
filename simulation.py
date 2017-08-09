@@ -1,3 +1,5 @@
+#coding: utf-8
+
 #########Import das bibliotecas usadas##########
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -13,7 +15,7 @@ h0 = 1
 #Coeficiente de Restituição
 e = 0.85
 #Intervalo entre calculos
-timestep = 1/60
+timestep = 1/60.0
 ################################################
 
 #Velocidade Atual da particula
